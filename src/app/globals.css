@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0a0a0f;
+  --foreground: #ededed;
+  --surface: #141420;
+  --surface-hover: #1e1e2e;
+  --border: #2a2a3e;
+  --accent: #6366f1;
+  --accent-hover: #818cf8;
+  --success: #10b981;
+  --warning: #f59e0b;
+  --error: #ef4444;
+  --text-muted: #9ca3af;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.glass {
+  background: rgba(20, 20, 32, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--border);
+}
